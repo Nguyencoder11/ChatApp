@@ -1,0 +1,35 @@
+.next-post {
+  display: block;
+  visibility: visible;
+  animation: fadein 1s linear;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 1;
+    transform: translateX(10%);
+  }
+
+  100% {
+    opacity: 0.5;
+    transform: translateX(100%);
+  }
+}
+
+.prev-post {
+  display: block;
+  visibility: visible;
+  animation: fadeout 01s linear;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+    transform: translateX(-10%);
+  }
+
+  100% {
+    opacity: 0.5;
+    transform: translateX(-100%);
+  }
+}

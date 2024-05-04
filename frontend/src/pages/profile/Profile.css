@@ -1,0 +1,14 @@
+.camera {
+  opacity: 0;
+}
+
+.label:hover {
+  --tw-bg-opacity: 0.4;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  transition: background-color 0.3s linear;
+}
+
+.label:hover .camera {
+  background-color: rgba(156, 163, 175, 0.573);
+  opacity: 1;
+}
